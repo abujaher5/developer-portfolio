@@ -98,6 +98,10 @@ nav a {
   margin-top: 0px;
 }
 /*main section style*/
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* about section style */
 .about {
@@ -105,4 +109,17 @@ nav a {
   padding: 130px;
   border-radius: 10px;
   margin: 130px 0;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+#whatido-description {
+  padding: 30px 150px;
+}
+.skill {
+  display: flex;
 }
